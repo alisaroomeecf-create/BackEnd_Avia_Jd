@@ -4,7 +4,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.models.models import Booking
 
 
-class BookingServise:
+class BookingService:
     @staticmethod
     async def create_booking(db:AsyncSession,data):
         booking=Booking(**data.dict())
