@@ -5,7 +5,7 @@ from app.schemas.trip import TripCreate
 from app.services.trip_service import TripService
 from database import get_db
 
-router=APIRouter(prefix="/trips",tags=["Trips"])
+router=APIRouter(prefix="/trip",tags=["Trips"])
 
 @router.post("/")
 async def create_trip(data:TripCreate,db:AsyncSession=Depends(get_db)):
