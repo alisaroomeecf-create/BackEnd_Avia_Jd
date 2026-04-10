@@ -28,5 +28,5 @@ class Booking(Base):
     id:Mapped[int]=mapped_column(primary_key=True)
     user_id:Mapped[int]=mapped_column(ForeignKey('users.id'))
     trip_id:Mapped[int]=mapped_column(ForeignKey('trips.id'))
-    status: Mapped[str] = mapped_column(String, default='created')
+    status: Mapped[str] = mapped_column(String, default='users')
     is_paid:Mapped[bool]=mapped_column(Boolean,default=False)

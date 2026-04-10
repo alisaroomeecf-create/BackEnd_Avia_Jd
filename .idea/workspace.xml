@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381d80ea-06ae-4283-972e-37f973223c71" name="Changes" comment="Backendwww">
+    <list default="true" id="381d80ea-06ae-4283-972e-37f973223c71" name="Changes" comment=" ergerge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/bookings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/bookings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/trips.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/trips.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/booking_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/booking_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/trip_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/trip_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -75,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774634164032</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" ergerge">
+      <option name="closed" value="true" />
+      <created>1775671256931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775671256931</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Backend" />
     <MESSAGE value="Backendwww" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backendwww" />
+    <MESSAGE value=" ergerge" />
+    <option name="LAST_COMMIT_MESSAGE" value=" ergerge" />
   </component>
 </project>

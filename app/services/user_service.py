@@ -1,7 +1,7 @@
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.models.models import User
+from app.models.models import User, Booking
 
 
 class UserService:
@@ -54,3 +54,5 @@ class UserService:
         await db.delete(user)
         await db.commit()
         return user
+
+
